@@ -11,8 +11,7 @@ if(computerChoice <= 0.33) {
   } else {
     computerChoice = "scissors";
   } console.log("Computer: " + computerChoice);
-  //};
-//};
+};
 
 //console.log(computerChoice);
 
@@ -26,7 +25,7 @@ var compare = function(choice1, choice2) {
       return "paper wins";
     }
   } else if (choice1 === "paper") {
-    if(choice2) === "rock") {
+    if(choice2 === "rock") {
       return "paper wins";
     } else {
       return "scissors wins";
@@ -38,8 +37,6 @@ var compare = function(choice1, choice2) {
       return "scissors wins";
     }
   }
-    //};
-  //};
 };
 
 compare(userChoice, computerChoice);
